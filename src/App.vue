@@ -1,13 +1,18 @@
 <template>
-  <HelloWorld />
+  <!-- <LoginPage /> -->
+  <WelcomePage />
+  <!-- <SignupPage /> -->
 </template>
 <script>
-import HelloWorld from "./components/HelloWorld";
-
+// import LoginPage from "./pages/LoginPage";
+import WelcomePage from "./pages/WelcomePage";
+// import SignupPage from "./pages/SignupPage";
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    // LoginPage,
+    WelcomePage,
+    // SignupPage,
   },
 };
 </script>
